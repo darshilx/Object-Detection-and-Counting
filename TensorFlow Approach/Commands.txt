@@ -1,4 +1,1 @@
-python tensorflow_cumulative_object_counting.py -m ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8\ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8\saved_model -l models/research/object_detection/data/mscoco_label_map.pbtxt -v test1.mp4 -a
-
-
-python tensorflow_cumulative_object_counting.py -m "E:/Academics/SEM_7/Minor Project/files/Trained model on Belt data/out/content/training_demo/exported_models/my_model/saved_model" -l "E:/Academics/SEM_7/Minor Project/files/out/content/training_demo/annotations/labelmap.pbtxt" -v ConveyerBelt_TopView.mp4
+python tensorflow_cumulative_object_counting.py -m "MODEL_PATH/saved_model" -l "LABELMAP_PATH/labelmap.pbtxt" -v VIDEO_PATH
